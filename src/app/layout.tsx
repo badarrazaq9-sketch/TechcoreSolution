@@ -13,9 +13,9 @@ const schemas = [
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "TechCore Studio",
-    url: "https://techcorestudio.com",
-    logo: "https://techcorestudio.com/TechCoreStudio Logo-01.jpg",
+    name: "TechCore solution",
+    url: "https://techcoresolution.com",
+    logo: "https://techcoresolution.com/TechCoresolution Logo-01.jpg",
     description:
       "Premium UK & USA-based software house delivering enterprise-grade digital solutions.",
     foundingDate: "2014",
@@ -44,18 +44,18 @@ const schemas = [
       },
     ],
     sameAs: [
-      "https://linkedin.com/company/techcore-studio",
-      "https://twitter.com/techcorestudio",
+      "https://linkedin.com/company/techcore-solution",
+      "https://twitter.com/techcoresolution",
     ],
   },
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "TechCore Studio",
-    url: "https://techcorestudio.com",
+    name: "TechCore solution",
+    url: "https://techcoresolution.com",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://techcorestudio.com/search?q={search_term_string}",
+      target: "https://techcoresolution.com/search?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   },
@@ -63,10 +63,10 @@ const schemas = [
 
 // ─── METADATA ───
 export const metadata: Metadata = {
-  metadataBase: new URL("https://techcorestudio.com"),
+  metadataBase: new URL("https://techcoresolution.com"),
   title: {
-    default: "TechCore Studio | UK & USA Software House | Enterprise Development",
-    template: "%s | TechCore Studio",
+    default: "TechCore solution | UK & USA Software House | Enterprise Development",
+    template: "%s | TechCore solution",
   },
   description:
     "Premium software house with offices in London, UK and New York, USA. Specializing in Next.js, React, AI integration, and enterprise web development. 150+ global clients, 99% satisfaction rate.",
@@ -91,7 +91,7 @@ export const metadata: Metadata = {
     "cloud solutions",
     "SaaS development",
     "custom software",
-    "TechCore Studio",
+    "TechCore solution",
   ],
 
   alternates: {
@@ -102,9 +102,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_GB",
     alternateLocale: ["en_US"],
-    url: "https://techcorestudio.com",
-    siteName: "TechCore Studio",
-    title: "TechCore Studio | UK & USA Software House",
+    url: "https://techcoresolution.com",
+    siteName: "TechCore solution",
+    title: "TechCore solution | UK & USA Software House",
     description:
       "Premium software house delivering enterprise-grade digital solutions from London and New York.",
     images: [
@@ -112,7 +112,7 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "TechCore Studio - UK & USA Software House",
+        alt: "TechCore solution - UK & USA Software House",
         type: "image/jpeg",
       },
     ],
@@ -120,9 +120,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    site: "@techcorestudio",
-    creator: "@techcorestudio",
-    title: "TechCore Studio | UK & USA Software House",
+    site: "@techcoresolution",
+    creator: "@techcoresolution",
+    title: "TechCore solution | UK & USA Software House",
     description:
       "Premium software house delivering enterprise-grade digital solutions.",
     images: ["/og-image.jpg"],
@@ -144,9 +144,9 @@ export const metadata: Metadata = {
     google: "8djN5oeLyY_EXVcz71fhrCDhoK2_Xb2MK-0pa3wr0MY",
   },
 
-  authors: [{ name: "TechCore Studio", url: "https://techcorestudio.com" }],
-  publisher: "TechCore Studio",
-  creator: "TechCore Studio",
+  authors: [{ name: "TechCore solution", url: "https://techcoresolution.com" }],
+  publisher: "TechCore solution",
+  creator: "TechCore solution",
 
   other: {
     "geo.region": "GB-SFK",
@@ -158,7 +158,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "TechCore Studio",
+    title: "TechCore solution",
   },
 
   icons: {

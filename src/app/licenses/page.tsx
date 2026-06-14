@@ -52,8 +52,8 @@ export default function LicensesPage() {
   return (
     <div className="min-h-screen text-white selection:bg-[#5d67f2]/30 bg-[#08080e]">
       <Head>
-        <title>Licenses | TechCore Studio</title>
-        <meta name="description" content="TechCore Studio - Open source licenses and third-party software attributions." />
+        <title>Licenses | TechCore solution</title>
+        <meta name="description" content="TechCore solution - Open source licenses and third-party software attributions." />
       </Head>
 
       <AnimatedBackground />
@@ -162,13 +162,13 @@ export default function LicensesPage() {
             >
               <h2 className="text-xl font-semibold text-white mb-4">License Compliance</h2>
               <p className="text-gray-400 text-sm leading-relaxed mb-4">
-                TechCore Studio is committed to open source compliance. All third-party software 
+                TechCore solution is committed to open source compliance. All third-party software 
                 is used in accordance with its respective license terms. We acknowledge and thank 
                 the open source community for their contributions.
               </p>
               <p className="text-gray-400 text-sm leading-relaxed">
                 If you believe any software is being used in violation of its license, please 
-                contact us immediately at legal@techcorestudio.com.
+                contact us immediately at legal@techcoresolution.com.
               </p>
             </motion.div>
           </div>

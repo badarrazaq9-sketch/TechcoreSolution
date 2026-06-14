@@ -64,7 +64,7 @@ const socialLinks = [
   },
   {
     icon: <Mail size={18} />,
-    href: "mailto:hello@techcorestudio.com",
+    href: "mailto:hello@techcoresolution.com",
     label: "Email",
     color: "hover:bg-[#06b6d4]/20 hover:text-[#06b6d4]",
   },
@@ -94,8 +94,8 @@ export default function Footer() {
             <Link href="/" className="block mb-4">
               <div className="relative w-44 h-44">
                 <img
-                  src="/TechCoreStudio Logo-01.png"
-                  alt="TechCore Studio"
+                  src="/TechCoresolution Logo-01.jpg"
+                  alt="TechCore solution"
                   className="w-full h-full object-contain"
                 />
               </div>
@@ -184,7 +184,7 @@ export default function Footer() {
         <div className="border-t border-white/[0.06] pt-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-6">
             <p className="text-gray-600 text-sm">
-              © 2026 TechCore Studio. All rights reserved.
+              © 2026 TechCore solution. All rights reserved.
             </p>
             <div className="flex items-center gap-4 text-xs text-gray-600">
               <span className="flex items-center gap-1">

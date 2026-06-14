@@ -12,14 +12,14 @@ const sections = [
   {
     icon: FileText,
     title: "Agreement to Terms",
-    content: `By accessing or using TechCore Studio's website and services, you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access our services.
+    content: `By accessing or using TechCore solution's website and services, you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access our services.
 
 These terms apply to all visitors, users, and others who access or use our services.`
   },
   {
     icon: CheckCircle,
     title: "Services Description",
-    content: `TechCore Studio provides software development services including:
+    content: `TechCore solution provides software development services including:
 
 Web Development: Custom websites, web applications, and e-commerce solutions
 Mobile App Development: iOS and Android applications
@@ -59,7 +59,7 @@ Portfolio Rights: We reserve the right to display completed work in our portfoli
   {
     icon: XCircle,
     title: "Limitation of Liability",
-    content: `TechCore Studio shall not be liable for:
+    content: `TechCore solution shall not be liable for:
 
 Indirect, incidental, special, or consequential damages
 Loss of profits, revenue, data, or business opportunities
@@ -101,8 +101,8 @@ export default function TermsOfServicePage() {
   return (
     <div className="min-h-screen text-white selection:bg-[#5d67f2]/30 bg-[#08080e]">
       <Head>
-        <title>Terms of Service | TechCore Studio</title>
-        <meta name="description" content="TechCore Studio Terms of Service - Rules and regulations for using our services." />
+        <title>Terms of Service | TechCore solution</title>
+        <meta name="description" content="TechCore solution Terms of Service - Rules and regulations for using our services." />
       </Head>
 
       <AnimatedBackground />

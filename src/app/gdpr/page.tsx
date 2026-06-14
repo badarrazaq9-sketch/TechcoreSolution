@@ -13,7 +13,7 @@ const sections = [
   {
     icon: Scale,
     title: "GDPR Compliance Statement",
-    content: `TechCore Studio is fully committed to compliance with the General Data Protection Regulation (GDPR) for all our clients and users within the European Union and European Economic Area.
+    content: `TechCore solution is fully committed to compliance with the General Data Protection Regulation (GDPR) for all our clients and users within the European Union and European Economic Area.
 
 As a UK and USA-based software house, we adhere to:
 - UK GDPR (post-Brexit data protection law)
@@ -36,7 +36,7 @@ Right to Data Portability: Receive data in a machine-readable format
 Right to Object: Object to processing based on legitimate interests
 Rights Related to Automated Decision-Making: Including profiling
 
-To exercise any of these rights, email: gdpr@techcorestudio.com`
+To exercise any of these rights, email: gdpr@techcoresolution.com`
   },
   {
     icon: Database,
@@ -89,7 +89,7 @@ We conduct Data Protection Impact Assessments (DPIAs) for high-risk processing a
     title: "Contact Our DPO",
     content: `Data Protection Officer:
 Name: [DPO Name]
-Email: dpo@techcorestudio.com
+Email: dpo@techcoresolution.com
 Address: 82a James Carter Road, Mildenhall, Suffolk, IP28 7DE, UK
 
 Response Time: We aim to respond to all GDPR-related requests within 72 hours and fully resolve them within 30 days.
@@ -103,19 +103,19 @@ const gdprSchema = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://techcorestudio.com/gdpr#webpage",
-      url: "https://techcorestudio.com/gdpr",
-      name: "GDPR Compliance | TechCore Studio",
+      "@id": "https://techcoresolution.com/gdpr#webpage",
+      url: "https://techcoresolution.com/gdpr",
+      name: "GDPR Compliance | TechCore solution",
       isPartOf: {
-        "@id": "https://techcorestudio.com#website"
+        "@id": "https://techcoresolution.com#website"
       },
       about: {
-        "@id": "https://techcorestudio.com#organization"
+        "@id": "https://techcoresolution.com#organization"
       },
-      description: "TechCore Studio GDPR Compliance - Your data protection rights and our privacy commitments under EU and UK law.",
+      description: "TechCore solution GDPR Compliance - Your data protection rights and our privacy commitments under EU and UK law.",
       primaryImageOfPage: {
         "@type": "ImageObject",
-        url: "https://techcorestudio.com/og-gdpr.jpg"
+        url: "https://techcoresolution.com/og-gdpr.jpg"
       },
       breadcrumb: {
         "@type": "BreadcrumbList",
@@ -124,26 +124,26 @@ const gdprSchema = {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://techcorestudio.com"
+            item: "https://techcoresolution.com"
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "GDPR Compliance",
-            item: "https://techcorestudio.com/gdpr"
+            item: "https://techcoresolution.com/gdpr"
           }
         ]
       }
     },
     {
       "@type": "Organization",
-      "@id": "https://techcorestudio.com#organization",
-      name: "TechCore Studio",
-      alternateName: "TechCore Studio - UK & USA Software House",
-      url: "https://techcorestudio.com",
+      "@id": "https://techcoresolution.com#organization",
+      name: "TechCore solution",
+      alternateName: "TechCore solution - UK & USA Software House",
+      url: "https://techcoresolution.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://techcorestudio.com/logo.png",
+        url: "https://techcoresolution.com/logo.png",
         width: 512,
         height: 512
       },
@@ -167,18 +167,18 @@ const gdprSchema = {
         }
       ],
       sameAs: [
-        "https://www.linkedin.com/company/techcorestudio",
-        "https://twitter.com/techcorestudio",
-        "https://github.com/techcorestudio"
+        "https://www.linkedin.com/company/techcoresolution",
+        "https://twitter.com/techcoresolution",
+        "https://github.com/techcoresolution"
       ]
     },
     {
       "@type": "WebSite",
-      "@id": "https://techcorestudio.com#website",
-      url: "https://techcorestudio.com",
-      name: "TechCore Studio",
+      "@id": "https://techcoresolution.com#website",
+      url: "https://techcoresolution.com",
+      name: "TechCore solution",
       publisher: {
-        "@id": "https://techcorestudio.com#organization"
+        "@id": "https://techcoresolution.com#organization"
       }
     }
   ]
@@ -188,8 +188,8 @@ export default function GDPRPage() {
   return (
     <div className="min-h-screen text-white selection:bg-[#5d67f2]/30 bg-[#08080e]">
       <Head>
-        <title>GDPR Compliance | TechCore Studio</title>
-        <meta name="description" content="TechCore Studio GDPR Compliance - Your data protection rights and our privacy commitments." />
+        <title>GDPR Compliance | TechCore solution</title>
+        <meta name="description" content="TechCore solution GDPR Compliance - Your data protection rights and our privacy commitments." />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(gdprSchema) }}

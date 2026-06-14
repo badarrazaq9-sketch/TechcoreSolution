@@ -37,11 +37,11 @@ const stats = [
 const aboutSchema = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  name: "About TechCore Studio",
+  name: "About TechCore solution",
   description: "UK & USA software house with 12+ years experience.",
   mainEntity: {
     "@type": "Organization",
-    name: "TechCore Studio",
+    name: "TechCore solution",
     foundingDate: "2014",
     numberOfEmployees: "50+",
     award: "15+ Industry Awards",
@@ -81,7 +81,7 @@ export default function AboutSection() {
               </span>
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed mb-6">
-              TechCore Studio is a premium software development company with
+              TechCore solution is a premium software development company with
               offices in London and New York. We specialize in building scalable,
               high-performance digital products for enterprises worldwide.
             </p>

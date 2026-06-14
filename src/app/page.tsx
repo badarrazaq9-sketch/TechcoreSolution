@@ -17,9 +17,9 @@ const homeSchema = {
   "@graph": [
     {
       "@type": "Organization",
-      name: "TechCore Studio",
-      url: "https://techcorestudio.com",
-      logo: "https://techcorestudio.com/TechCoreStudio Logo-01.jpg",
+      name: "TechCore solution",
+      url: "https://techcoresolution.com",
+      logo: "https://techcoresolution.com/TechCoresolution Logo-01.jpg",
       description:
         "Premium UK & USA-based software house delivering enterprise-grade digital solutions.",
       foundingDate: "2014",
@@ -48,34 +48,34 @@ const homeSchema = {
         },
       ],
       sameAs: [
-        "https://linkedin.com/company/techcore-studio",
-        "https://twitter.com/techcorestudio",
+        "https://linkedin.com/company/techcore-solution",
+        "https://twitter.com/techcoresolution",
       ],
     },
     {
       "@type": "WebSite",
-      name: "TechCore Studio",
-      url: "https://techcorestudio.com",
+      name: "TechCore solution",
+      url: "https://techcoresolution.com",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://techcorestudio.com/search?q={search_term_string}",
+        target: "https://techcoresolution.com/search?q={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     },
     {
       "@type": "WebPage",
-      "@id": "https://techcorestudio.com",
-      url: "https://techcorestudio.com",
-      name: "TechCore Studio | Premium Software House UK & USA",
+      "@id": "https://techcoresolution.com",
+      url: "https://techcoresolution.com",
+      name: "TechCore solution | Premium Software House UK & USA",
       description:
         "Premium software house with offices in London, UK and New York, USA. Crafting digital excellence through innovative design and cutting-edge technology.",
       isPartOf: {
         "@type": "WebSite",
-        "@id": "https://techcorestudio.com",
+        "@id": "https://techcoresolution.com",
       },
       about: {
         "@type": "Organization",
-        "@id": "https://techcorestudio.com",
+        "@id": "https://techcoresolution.com",
       },
     },
   ],

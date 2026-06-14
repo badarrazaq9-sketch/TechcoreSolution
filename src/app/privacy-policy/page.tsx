@@ -12,7 +12,7 @@ const sections = [
   {
     icon: Shield,
     title: "Introduction",
-    content: `TechCore Studio ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+    content: `TechCore solution ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
 
 We operate in compliance with the UK Data Protection Act 2018, the UK GDPR, and the EU GDPR for our operations in the United States and European Union.`
   },
@@ -93,18 +93,18 @@ Right to Data Portability: Receive data in a structured format
 Right to Object: Object to processing based on legitimate interests
 Right to Withdraw Consent: Withdraw consent at any time
 
-To exercise these rights, contact us at privacy@techcorestudio.com`
+To exercise these rights, contact us at privacy@techcoresolution.com`
   },
   {
     icon: Mail,
     title: "Contact Us",
     content: `If you have questions about this Privacy Policy or our data practices, please contact:
 
-TechCore Studio
-Email: privacy@techcorestudio.com
+TechCore solution
+Email: privacy@techcoresolution.com
 Address: London, UK & New York, USA
 
-Data Protection Officer: dpo@techcorestudio.com
+Data Protection Officer: dpo@techcoresolution.com
 
 We will respond to all requests within 30 days.`
   }
@@ -114,8 +114,8 @@ export default function PrivacyPolicyPage() {
   return (
     <div className="min-h-screen text-white selection:bg-[#5d67f2]/30 bg-[#08080e]">
       <Head>
-        <title>Privacy Policy | TechCore Studio</title>
-        <meta name="description" content="TechCore Studio Privacy Policy - How we collect, use, and protect your personal data." />
+        <title>Privacy Policy | TechCore solution</title>
+        <meta name="description" content="TechCore solution Privacy Policy - How we collect, use, and protect your personal data." />
       </Head>
 
       <AnimatedBackground />

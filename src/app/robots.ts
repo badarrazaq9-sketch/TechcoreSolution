@@ -27,7 +27,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/"],
       },
     ],
-    sitemap: "https://techcorestudio.com/sitemap.xml",
-    host: "https://techcorestudio.com",
+    sitemap: "https://techcoresolution.com/sitemap.xml",
+    host: "https://techcoresolution.com",
   };
 }

@@ -15,18 +15,18 @@ export default function PortfolioPage() {
     "@graph": [
       {
         "@type": "CollectionPage",
-        "@id": "https://techcorestudio.com/portfolio#webpage",
-        "url": "https://techcorestudio.com/portfolio",
-        "name": "Portfolio | TechCore Studio - UK & USA Software House",
-        "isPartOf": { "@id": "https://techcorestudio.com#website" },
-        "about": { "@id": "https://techcorestudio.com#organization" },
+        "@id": "https://techcoresolution.com/portfolio#webpage",
+        "url": "https://techcoresolution.com/portfolio",
+        "name": "Portfolio | TechCore solution - UK & USA Software House",
+        "isPartOf": { "@id": "https://techcoresolution.com#website" },
+        "about": { "@id": "https://techcoresolution.com#organization" },
         "description": "Explore our portfolio of web development, mobile apps, UI/UX design, branding, and AI integration projects.",
-        "primaryImageOfPage": { "@type": "ImageObject", "url": "https://techcorestudio.com/og-portfolio.jpg" },
+        "primaryImageOfPage": { "@type": "ImageObject", "url": "https://techcoresolution.com/og-portfolio.jpg" },
         "breadcrumb": {
           "@type": "BreadcrumbList",
           "itemListElement": [
-            { "@type": "ListItem", "position:": 1, "name": "Home", "item": "https://techcorestudio.com" },
-            { "@type": "ListItem", "position:": 2, "name": "Portfolio", "item": "https://techcorestudio.com/portfolio" }
+            { "@type": "ListItem", "position:": 1, "name": "Home", "item": "https://techcoresolution.com" },
+            { "@type": "ListItem", "position:": 2, "name": "Portfolio", "item": "https://techcoresolution.com/portfolio" }
           ]
         }
       }
@@ -36,7 +36,7 @@ export default function PortfolioPage() {
   return (
     <div className="min-h-screen text-white selection:bg-[#5d67f2]/30 bg-[#08080e]">
       <Head>
-        <title>Portfolio | TechCore Studio - UK & USA Software House</title>
+        <title>Portfolio | TechCore solution - UK & USA Software House</title>
         <meta name="description" content="Explore our portfolio of web development, mobile apps, UI/UX design, branding, and AI integration projects. UK & USA-based software house." />
         <script
           type="application/ld+json"

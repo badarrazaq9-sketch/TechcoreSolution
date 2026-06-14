@@ -41,19 +41,19 @@ const cookieSchema = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://techcorestudio.com/cookie-policy#webpage",
-      url: "https://techcorestudio.com/cookie-policy",
-      name: "Cookie Policy | TechCore Studio",
+      "@id": "https://techcoresolution.com/cookie-policy#webpage",
+      url: "https://techcoresolution.com/cookie-policy",
+      name: "Cookie Policy | TechCore solution",
       isPartOf: {
-        "@id": "https://techcorestudio.com#website"
+        "@id": "https://techcoresolution.com#website"
       },
       about: {
-        "@id": "https://techcorestudio.com#organization"
+        "@id": "https://techcoresolution.com#organization"
       },
-      description: "TechCore Studio Cookie Policy - How we use cookies and similar technologies.",
+      description: "TechCore solution Cookie Policy - How we use cookies and similar technologies.",
       primaryImageOfPage: {
         "@type": "ImageObject",
-        url: "https://techcorestudio.com/og-cookie.jpg"
+        url: "https://techcoresolution.com/og-cookie.jpg"
       },
       breadcrumb: {
         "@type": "BreadcrumbList",
@@ -62,26 +62,26 @@ const cookieSchema = {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://techcorestudio.com"
+            item: "https://techcoresolution.com"
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "Cookie Policy",
-            item: "https://techcorestudio.com/cookie-policy"
+            item: "https://techcoresolution.com/cookie-policy"
           }
         ]
       }
     },
     {
       "@type": "Organization",
-      "@id": "https://techcorestudio.com#organization",
-      name: "TechCore Studio",
-      alternateName: "TechCore Studio - UK & USA Software House",
-      url: "https://techcorestudio.com",
+      "@id": "https://techcoresolution.com#organization",
+      name: "TechCore solution",
+      alternateName: "TechCore solution - UK & USA Software House",
+      url: "https://techcoresolution.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://techcorestudio.com/logo.png",
+        url: "https://techcoresolution.com/logo.png",
         width: 512,
         height: 512
       },
@@ -105,18 +105,18 @@ const cookieSchema = {
         }
       ],
       sameAs: [
-        "https://www.linkedin.com/company/techcorestudio",
-        "https://twitter.com/techcorestudio",
-        "https://github.com/techcorestudio"
+        "https://www.linkedin.com/company/techcoresolution",
+        "https://twitter.com/techcoresolution",
+        "https://github.com/techcoresolution"
       ]
     },
     {
       "@type": "WebSite",
-      "@id": "https://techcorestudio.com#website",
-      url: "https://techcorestudio.com",
-      name: "TechCore Studio",
+      "@id": "https://techcoresolution.com#website",
+      url: "https://techcoresolution.com",
+      name: "TechCore solution",
       publisher: {
-        "@id": "https://techcorestudio.com#organization"
+        "@id": "https://techcoresolution.com#organization"
       }
     }
   ]
@@ -126,8 +126,8 @@ export default function CookiePolicyPage() {
   return (
     <div className="min-h-screen text-white selection:bg-[#5d67f2]/30 bg-[#08080e]">
       <Head>
-        <title>Cookie Policy | TechCore Studio</title>
-        <meta name="description" content="TechCore Studio Cookie Policy - How we use cookies and similar technologies." />
+        <title>Cookie Policy | TechCore solution</title>
+        <meta name="description" content="TechCore solution Cookie Policy - How we use cookies and similar technologies." />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(cookieSchema) }}
@@ -284,7 +284,7 @@ export default function CookiePolicyPage() {
             viewport={{ once: true }}
             className="mt-12 text-center text-gray-500 text-sm"
           >
-            <p>For questions about our Cookie Policy, contact privacy@techcorestudio.com</p>
+            <p>For questions about our Cookie Policy, contact privacy@techcoresolution.com</p>
           </motion.div>
         </div>
       </main>

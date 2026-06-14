@@ -22,9 +22,9 @@ const aboutSchema = {
   "@graph": [
     {
       "@type": "Organization",
-      name: "TechCore Studio",
-      url: "https://techcore.studio",
-      logo: "https://techcore.studio/TechCoreStudio Logo-01.jpg",
+      name: "TechCore solution",
+      url: "https://techcore.solution",
+      logo: "https://techcore.solution/TechCoresolution Logo-01.jpg",
       description: "Premium UK & USA-based software house delivering enterprise-grade digital solutions.",
       foundingDate: "2014",
       address: [
@@ -54,33 +54,33 @@ const aboutSchema = {
         },
       ],
       sameAs: [
-        "https://linkedin.com/company/techcore-studio",
-        "https://twitter.com/techcorestudio",
+        "https://linkedin.com/company/techcore-solution",
+        "https://twitter.com/techcoresolution",
       ],
     },
     {
       "@type": "WebSite",
-      name: "TechCore Studio",
-      url: "https://techcore.studio",
+      name: "TechCore solution",
+      url: "https://techcore.solution",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://techcore.studio/search?q={search_term_string}",
+        target: "https://techcore.solution/search?q={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     },
     {
       "@type": "AboutPage",
-      "@id": "https://techcore.studio/about",
-      url: "https://techcore.studio/about",
-      name: "About TechCore Studio",
-      description: "Learn about TechCore Studio, a premium software house with offices in London and New York. We transform complex challenges into elegant, scalable digital solutions.",
+      "@id": "https://techcore.solution/about",
+      url: "https://techcore.solution/about",
+      name: "About TechCore solution",
+      description: "Learn about TechCore solution, a premium software house with offices in London and New York. We transform complex challenges into elegant, scalable digital solutions.",
       isPartOf: {
         "@type": "WebSite",
-        "@id": "https://techcore.studio",
+        "@id": "https://techcore.solution",
       },
       mainEntity: {
         "@type": "Organization",
-        "@id": "https://techcore.studio",
+        "@id": "https://techcore.solution",
       },
     },
   ],
@@ -245,7 +245,7 @@ export default function AboutHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
         >
-          TechCore Studio is a premium software house with offices in London and New York.
+          TechCore solution is a premium software house with offices in London and New York.
           We transform complex challenges into elegant, scalable digital solutions that drive global growth.
         </motion.p>
 

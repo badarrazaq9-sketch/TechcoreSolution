@@ -23,19 +23,19 @@ export default function AboutPage() {
   "@graph": [
     {
       "@type": "AboutPage",
-      "@id": "https://techcorestudio.com/about#webpage",
-      "url": "https://techcorestudio.com/about",
-      "name": "About Us | TechCore Studio - UK & USA Software House",
+      "@id": "https://techcoresolution.com/about#webpage",
+      "url": "https://techcoresolution.com/about",
+      "name": "About Us | TechCore solution - UK & USA Software House",
       "isPartOf": {
-        "@id": "https://techcorestudio.com#website"
+        "@id": "https://techcoresolution.com#website"
       },
       "about": {
-        "@id": "https://techcorestudio.com#organization"
+        "@id": "https://techcoresolution.com#organization"
       },
-      "description": "Learn about TechCore Studio - Premium UK & USA-based software house with 12+ years of experience.",
+      "description": "Learn about TechCore solution - Premium UK & USA-based software house with 12+ years of experience.",
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://techcorestudio.com/og-about.jpg"
+        "url": "https://techcoresolution.com/og-about.jpg"
       },
       "breadcrumb": {
         "@type": "BreadcrumbList",
@@ -44,26 +44,26 @@ export default function AboutPage() {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://techcorestudio.com"
+            "item": "https://techcoresolution.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "About Us",
-            "item": "https://techcorestudio.com/about"
+            "item": "https://techcoresolution.com/about"
           }
         ]
       }
     },
     {
       "@type": "Organization",
-      "@id": "https://techcorestudio.com#organization",
-      "name": "TechCore Studio",
-      "alternateName": "TechCore Studio - UK & USA Software House",
-      "url": "https://techcorestudio.com",
+      "@id": "https://techcoresolution.com#organization",
+      "name": "TechCore solution",
+      "alternateName": "TechCore solution - UK & USA Software House",
+      "url": "https://techcoresolution.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://techcorestudio.com/logo.png",
+        "url": "https://techcoresolution.com/logo.png",
         "width": 512,
         "height": 512
       },
@@ -91,9 +91,9 @@ export default function AboutPage() {
         }
       ],
       "sameAs": [
-        "https://www.linkedin.com/company/techcorestudio",
-        "https://twitter.com/techcorestudio",
-        "https://github.com/techcorestudio"
+        "https://www.linkedin.com/company/techcoresolution",
+        "https://twitter.com/techcoresolution",
+        "https://github.com/techcoresolution"
       ],
       "areaServed": [
         {
@@ -116,11 +116,11 @@ export default function AboutPage() {
     },
     {
       "@type": "WebSite",
-      "@id": "https://techcorestudio.com#website",
-      "url": "https://techcorestudio.com",
-      "name": "TechCore Studio",
+      "@id": "https://techcoresolution.com#website",
+      "url": "https://techcoresolution.com",
+      "name": "TechCore solution",
       "publisher": {
-        "@id": "https://techcorestudio.com#organization"
+        "@id": "https://techcoresolution.com#organization"
       }
     }
   ]
@@ -129,8 +129,8 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen text-white selection:bg-[#5d67f2]/30 bg-[#08080e]">
       <Head>
-        <title>About Us | TechCore Studio - UK & USA Software House</title>
-        <meta name="description" content="Learn about TechCore Studio - Premium UK & USA-based software house with 12+ years of experience." />
+        <title>About Us | TechCore solution - UK & USA Software House</title>
+        <meta name="description" content="Learn about TechCore solution - Premium UK & USA-based software house with 12+ years of experience." />
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"

@@ -6,7 +6,7 @@ import { MapPin, Sparkles, ArrowRight, Mail, Phone, Clock } from "lucide-react";
 import Link from "next/link";
 
 const contactInfo = [
-  { value: "hello@techcorestudio.com", label: "Email Us", icon: <Mail size={16} /> },
+  { value: "hello@techcoresolution.com", label: "Email Us", icon: <Mail size={16} /> },
   { value: "+44 20 7946 0958", label: "UK Office", icon: <Phone size={16} /> },
   { value: "+1 212 555 0199", label: "US Office", icon: <Phone size={16} /> },
   { value: "24/7 Support", label: "Always Online", icon: <Clock size={16} /> },
@@ -22,9 +22,9 @@ const contactSchema = {
   "@graph": [
     {
       "@type": "Organization",
-      name: "TechCore Studio",
-      url: "https://techcore.studio",
-      logo: "https://techcore.studio/TechCoreStudio Logo-01.jpg",
+      name: "TechCore solution",
+      url: "https://techcore.solution",
+      logo: "https://techcore.solution/TechCoresolution Logo-01.jpg",
       description: "Premium UK & USA-based software house delivering enterprise-grade digital solutions.",
       foundingDate: "2014",
       address: [
@@ -36,28 +36,28 @@ const contactSchema = {
         { "@type": "ContactPoint", telephone: "+1-212-555-0199", contactType: "sales", areaServed: "US", availableLanguage: ["English"] },
       ],
       sameAs: [
-        "https://linkedin.com/company/techcore-studio",
-        "https://twitter.com/techcorestudio",
+        "https://linkedin.com/company/techcore-solution",
+        "https://twitter.com/techcoresolution",
       ],
     },
     {
       "@type": "WebSite",
-      name: "TechCore Studio",
-      url: "https://techcore.studio",
+      name: "TechCore solution",
+      url: "https://techcore.solution",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://techcore.studio/search?q={search_term_string}",
+        target: "https://techcore.solution/search?q={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     },
     {
       "@type": "ContactPage",
-      "@id": "https://techcore.studio/contact",
-      url: "https://techcore.studio/contact",
-      name: "Contact TechCore Studio",
-      description: "Get in touch with TechCore Studio. Reach out to discuss your project and transform your digital presence.",
-      isPartOf: { "@type": "WebSite", "@id": "https://techcore.studio" },
-      mainEntity: { "@type": "Organization", "@id": "https://techcore.studio" },
+      "@id": "https://techcore.solution/contact",
+      url: "https://techcore.solution/contact",
+      name: "Contact TechCore solution",
+      description: "Get in touch with TechCore solution. Reach out to discuss your project and transform your digital presence.",
+      isPartOf: { "@type": "WebSite", "@id": "https://techcore.solution" },
+      mainEntity: { "@type": "Organization", "@id": "https://techcore.solution" },
     },
   ],
 };
@@ -232,7 +232,7 @@ export default function ContactHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.0 }}
         >
-          <Link href="mailto:hello@techcorestudio.com">
+          <Link href="mailto:hello@techcoresolution.com">
             <motion.button
               whileHover={{
                 scale: 1.03,
