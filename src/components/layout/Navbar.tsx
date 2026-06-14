@@ -53,7 +53,7 @@ export default function Navbar() {
   className="flex items-center"
 >
   <span className="text-2xl font-extrabold tracking-tight select-none">
-    <span className="text-white">TechCore</span>
+    <span className="text-white">CoreTech</span>
     <span className="bg-linear-to-r from-blue-400 to-blue-700 bg-clip-text text-transparent">
       Solution
     </span>

@@ -101,8 +101,10 @@ export default function Footer() {
   >
     <div className="text-center select-none">
       <div className="text-3xl font-extrabold tracking-tight">
-        <span className="text-white">TechCore</span>
+        <span className="text-white">Core</span>
+        <span className="text-white">Tech</span>
         <span className="text-blue-500">Solution</span>
+
       </div>
 
       <div className="mt-2 h-[2px] w-full bg-gradient-to-r from-blue-400 to-blue-700 rounded-full opacity-70" />
