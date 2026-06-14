@@ -45,20 +45,20 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo → Homepage */}
-        <motion.div whileHover={{ scale: 1.02 }} className="cursor-pointer">
-          <Link href="/" className="flex items-center gap-3">
-            <div className="relative w-[120px] h-[90px]">
-              <Image
-                src="/TechCoreStudio Logo-01.png"
-                alt="TechCore Studio"
-                fill
-                sizes="144px"
-                className="object-contain"
-                priority
-              />
-            </div>
-          </Link>
-        </motion.div>
+    <motion.div
+  initial={{ opacity: 0, y: -5 }}
+  animate={{ opacity: 1, y: 0 }}
+  whileHover={{ scale: 1.05 }}
+  transition={{ duration: 0.4, ease: "easeOut" }}
+  className="flex items-center"
+>
+  <span className="text-2xl font-extrabold tracking-tight select-none">
+    <span className="text-white">TechCore</span>
+    <span className="bg-linear-to-r from-blue-400 to-blue-700 bg-clip-text text-transparent">
+      Solution
+    </span>
+  </span>
+</motion.div>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">

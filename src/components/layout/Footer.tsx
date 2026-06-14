@@ -91,16 +91,24 @@ export default function Footer() {
             transition={{ duration: 0.8 }}
             className="lg:col-span-4 self-start"
           >
-            <Link href="/" className="block mb-4">
-              <div className="relative w-44 h-44">
-                <img
-                  src="/TechCoresolution Logo-01.jpg"
-                  alt="TechCore solution"
-                  className="w-full h-full object-contain"
-                />
-              </div>
-            
-            </Link>
+           <Link href="/" className="block mb-4">
+  <motion.div
+    initial={{ opacity: 0, scale: 0.95 }}
+    animate={{ opacity: 1, scale: 1 }}
+    whileHover={{ scale: 1.05 }}
+    transition={{ duration: 0.4, ease: "easeOut" }}
+    className="w-44 h-44 flex items-center justify-center"
+  >
+    <div className="text-center select-none">
+      <div className="text-3xl font-extrabold tracking-tight">
+        <span className="text-white">TechCore</span>
+        <span className="text-blue-500">Solution</span>
+      </div>
+
+      <div className="mt-2 h-[2px] w-full bg-gradient-to-r from-blue-400 to-blue-700 rounded-full opacity-70" />
+    </div>
+  </motion.div>
+</Link>
             <p className="text-gray-400 mb-1 leading-relaxed text-sm">
               Premium software house with offices in London, UK and New York,
               USA.
