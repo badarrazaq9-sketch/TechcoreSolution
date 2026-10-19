@@ -222,6 +222,11 @@ export default function RootLayout({
       <body className="min-h-screen text-white antialiased">
         <AnimatedBackground />
         <div className="relative z-10">{children}</div>
+          <script
+          src="https://cdn.zanderio.ai/widget/loader.js"
+          data-id="wdg_twYGLgxOAxLrOFE7sCQqldYs"
+          defer
+        />
       </body>
     </html>
   );
